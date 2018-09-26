@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+while true; do
+  if [ -f $SNAP_COMMON/config.json ]
+    then
+      do-beacon $SNAP_COMMON/config.json
+      sleep 1h;
+    else
+      echo "You must create config.json inside /var/snap/do-beacon/common"
+      break;
+  fi
+done;

@@ -1,0 +1,22 @@
+name: do-beacon
+version: 'git'
+summary: Dynamic DNS using the Digital Ocean API
+description: |
+  Dynamically update your Digital Ocean DNS records.
+
+grade: stable
+confinement: stable
+
+apps:
+  do-beacon:
+    command: do-beacon
+
+  do-beacond:
+    command: do-beacond
+    daemon: simple
+
+parts:
+  do-beacon:
+    source: ..
+    plugin: nodejs
+    node-engine: 8.12.0

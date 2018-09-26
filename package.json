@@ -1,0 +1,15 @@
+{
+  "name": "do-beacon",
+  "version": "git",
+  "description": "",
+  "bin": {
+    "do-beacon": "./do-beacon.js",
+    "do-beacond": "./do-beacond"
+  },
+  "keywords": [],
+  "author": "dboy591@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
