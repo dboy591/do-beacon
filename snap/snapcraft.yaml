@@ -10,6 +10,7 @@ confinement: strict
 apps:
   do-beacon:
     command: do-beacon
+    plugs: [network]
 
   do-beacond:
     command: do-beacond
