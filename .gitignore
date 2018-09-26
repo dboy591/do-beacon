@@ -75,8 +75,3 @@ typings/
 #snapcraft
 snap/*
 !snap/snapcraft.yaml
-
-
-
-stage/
-*.snap
