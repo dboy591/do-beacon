@@ -7,7 +7,7 @@ function getPublicIp () {
   return fetch('http://ifconfig.co/json').then(res => res.json()).then(res => res.ip)
 }
 
-function getConfig (file = `${process.env.DO_BEACON_CONFIG}`) {
+function getConfig (file = `${process.env.SNAP_COMMON}/config.json`) {
   let config = JSON.parse(fs.readFileSync(file, 'utf-8'))
   if (config.key) {
     return config
