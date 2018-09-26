@@ -1,14 +1,19 @@
 {
   "name": "do-beacon",
   "version": "0.0.1",
-  "description": "",
+  "description": "Dynamic DNS using node and the Digital Ocean API ",
+  "homepage": "https://github.com/dboy591/do-beacon",
+  "repository": {
+  "type" : "git",
+  "url" : "https://github.com/dboy591/do-beacon.git"
+  },
+  "keywords": ["ddns", "Digital Ocean"],
+  "author": "dboy591@gmail.com",
+  "license": "MIT",
   "bin": {
     "do-beacon": "./do-beacon.js",
     "do-beacond": "./do-beacond"
   },
-  "keywords": [],
-  "author": "dboy591@gmail.com",
-  "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.2.0"
   }
