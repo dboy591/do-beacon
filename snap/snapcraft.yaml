@@ -17,6 +17,6 @@ apps:
 
 parts:
   do-beacon:
-    source: ..
+    source: https://github.com/dboy591/do-beacon.git
     plugin: nodejs
     node-engine: 8.12.0
