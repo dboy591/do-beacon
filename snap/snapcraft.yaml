@@ -15,6 +15,7 @@ apps:
   do-beacond:
     command: do-beacond
     daemon: simple
+    plugs: [network]
 
 parts:
   do-beacon:
